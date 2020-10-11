@@ -1,0 +1,145 @@
+body{
+	background-image: url("/static/back.jpg");
+	height: 200%;
+	background-position: center;
+
+    background-size: cover;
+}
+
+.corner{
+	position: relative;
+	left: 550px;
+}
+.center{
+	position: absolute;
+	top: 200px;
+	left: 775px;
+	font-size: 55px;
+	color: yellow;
+	font-family: bold;
+}
+.teacher_login{
+	position: absolute;
+	top: 400px;
+	left: 500px;
+	background-image: url("/static/back.jpg");
+	color: white;
+	width: 300px;
+	height: 50px;
+	font-size: 20px;
+	font-family: bold;
+}
+.student_login{
+	position: absolute;
+	top: 400px;
+	left: 1100px;
+	background-image: url("/static/back.jpg");
+	color: white;
+	width: 300px;
+	height: 50px;
+	font-size: 20px;
+	font-family: bold;
+}
+.input
+{
+	background-image: url("/static/back.jpg");
+	position: relative;
+	top: 400px;
+	width: 350px;
+	height: 40px;
+	font-family: bold;
+	font-size: 25px;
+	color: white;
+	font-family: bold;
+}
+.login
+{
+	position: absolute;
+	background-image: url("/static/back.jpg");
+	top: 750px;
+	left: 775px;
+	width: 200px;
+	height: 50px;
+	color: white;
+	font-family: bold;
+}
+.update
+{
+	position: absolute;
+	top: 200px;
+	left: 675px;
+	font-size: 55px;
+	color: white;
+	font-family: bold;
+}
+
+.classes{
+	color: yellow;
+	font-size: 30px;
+	font-family: bold;
+}
+
+.heading{
+	font-size: 55px;
+	color: white;
+	font-family: bold;
+}
+
+.date
+{
+	background-image: url("/static/back.jpg");
+	width: 350px;
+	height: 40px;
+	font-family: bold;
+	font-size: 25px;
+	color: white;
+	font-family: bold;	
+}
+
+.login2
+{
+	background-image: url("/static/back.jpg");
+	width: 200px;
+	height: 50px;
+	color: white;
+	font-family: bold;
+}
+
+.meet
+{
+	color: yellow;
+	font-family: bold;
+	font-size: 30px;
+	position: absolute;
+	left: 500px;
+}
+
+.zoom
+{
+	color: yellow;
+	font-family: bold;
+	font-size: 30px;
+	position: absolute;
+	left: 1000px;
+}
+
+.link
+{
+	background-image: url("/static/back.jpg");;
+	width: 550px;
+	height: 40px;
+	font-family: bold;
+	font-size: 20px;
+	color: white;
+	font-family: bold;
+}
+
+.thanks
+{
+	background-color: green;
+	width: 250px;
+	height: 50px;
+	color: white;
+	font-family: bold;
+
+}

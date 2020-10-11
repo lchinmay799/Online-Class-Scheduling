@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Select the Class</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='styling.css') }}">
+</head>
+<body>
+	<marquee><p style="background-color: white;color: red;font-size: 30px;">{{o}}</p></marquee>
+	<marquee><p style="background-color: white;color: red;font-size: 30px;">{{message}}</p></marquee>
+	<form method="post" action="http://127.0.0.1:5000/tpage4/{{m}}">
+		<center style="color:yellow;font-size: 40px;font-family: bold;">
+		<p>Select the Section</p>
+		{% for i in cls %}
+		<label style="color: white;"><input type="radio" name="class" value={{i[0]}}>{{i[0]}} Section</label><br><br><br>
+		{% endfor %}
+		<p>Select the Subject</p>
+		{% for i in subject %}
+		<label style="color: white;"><input type="radio" name="subject" value={{i[1]}}>{{i[0]}}</label><br><br><br>
+		{% endfor %}
+		Starting on: <input type="date" name="startdate" class="date" placeholder="Enter the Starting Time"> at: <input type="time" name="starttime" class="date" step="1"><br><br><br>
+		Ending on: <input type="date" name="finishdate" placeholder="Enter the Finishing Time" class="date"> at :<input type="time" name="finishtime" class="date" step="1"><br><br><br>
+		<a href="https://meet.google.com/" target="_blank" class="meet"> Go to Google Meet</a> <a href="https://zoom.us/" target="_blank" class="zoom">Go To Zoom</a><br><br><br>
+		<input type="text" name="link" class="link" placeholder="Enter the link for the Meet" class="link"><br><br><br>
+		<input type="submit" value="Submit" class="login2"></center>
+	</form>
+</body>
+</html>

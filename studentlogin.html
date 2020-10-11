@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='styling.css') }}">
+</head>
+<body>
+	<center>
+<form method="post" action="spage2">
+	<h1 class="center">Login</h1>
+	<input type="number" name="usn" placeholder="Enter your USN" class="input" ><br><br><br>
+	<input type="email" name="email" class="input" placeholder="Enter your Email" size="50"><br><br><br>
+	<input type="password" name="password" class ="input" placeholder="Enter your Password" size="50"><br><br><br>
+	<input type="submit" class = "login" value="Login">
+</form>
+</center>
+</body>
+</html>
