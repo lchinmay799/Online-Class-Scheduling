@@ -210,7 +210,7 @@ def tpage4(email):
 			val=(cid,tid,sid,start,finish)
 			cursor.execute(sql,val)
 			connection.commit()
-			password="jai bhajarangabali"
+			password="qwert!@#$%"
 			message="""Hello,
 
 			You have a {} class scheduled between {} and {} by {}
@@ -220,8 +220,8 @@ def tpage4(email):
 			""".format(subject,start,finish,tname,link)
 			m="You have Successfully Scheduled a class for {} {} Section between {} and {}".format(bname,cname,start,finish)
 			server=smtplib.SMTP_SSL("smtp.gmail.com",465)
-			server.login("lchinmay777@gmail.com",password)
-			server.sendmail("lchinmay777@gmail.com",li,message)
+			server.login("customer.service.cs7",password)
+			server.sendmail("customer.service.cs7",li,message)
 			server.quit()
 			return render_template("tpage4.html",bname=bname,cname=cname,start=start,finish=finish,subject=subject)
 		else:
